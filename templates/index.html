@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    </style>
 </head>
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="627dd60b-cec7-41be-8bdb-c21be746da7b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-<body>
+<body bgcolor="black">
+    <button id="chat"onclick="$crisp.push(['do', 'chat:open'])" hidden>Click Me!</button>
 
-    <h1>Good moring</h1>
 </body>
+<script type="text/javascript">
+window.$crisp=[];window.CRISP_WEBSITE_ID="627dd60b-cec7-41be-8bdb-c21be746da7b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+      document.getElementById('chat').click();  
+</script>    
 </html>
